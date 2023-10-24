@@ -1,3 +1,10 @@
+
+## A NEAT AND FRESH NEW LOOK.             ##
+## THIS FILE WAS CLEANING BY LINTAR!  ##
+## ITS DDoS PANEL BY LINTAR!                    ##
+## TELERAGM: @Lintar21                               ##
+## WhatsApp: +6281247891005                  ##
+
 import socket
 import os
 import requests
@@ -19,19 +26,19 @@ def atas():
 
 def logo():
 	print(""" 
-\x1b[38;2;0;255;255███████╗██╗      █████╗ ██████╗ ███████╗    ██████╗  █████╗ ███╗   ██╗███████╗██╗     
+███████╗██╗      █████╗ ██████╗ ███████╗    ██████╗  █████╗ ███╗   ██╗███████╗██╗     
 ██╔════╝██║     ██╔══██╗██╔══██╗██╔════╝    ██╔══██╗██╔══██╗████╗  ██║██╔════╝██║     
 █████╗  ██║     ███████║██████╔╝█████╗      ██████╔╝███████║██╔██╗ ██║█████╗  ██║     
 ██╔══╝  ██║     ██╔══██║██╔══██╗██╔══╝      ██╔═══╝ ██╔══██║██║╚██╗██║██╔══╝  ██║     
 ██║     ███████╗██║  ██║██║  ██║███████╗    ██║     ██║  ██║██║ ╚████║███████╗███████╗
-╚═╝     ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝    ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚══════╝  
+╚═╝     ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝    ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚══════╝        ░  
                                       
  """)
 	
 def methods():
 	print("""
 
-\x1b[38;2;0;255;255m» Layer7: 
+» Layer7: 
 	TLS <url> <time> <Rate> <threads>
 	HTTP <url> <req_per_ip> <time>
 	HTTP-MIX <url> <time>
@@ -42,19 +49,19 @@ def methods():
 	SOCKET <url> <per> <time>
 	https-spoof <url> <time> <threads>
 	
-\x1b[38;2;0;255;255m» Layer4:         
+» Layer4:         
 	STRESS <ip> <port> <mode> <connection> <seconds> <timeout>
 	TCP METHODS[GET/POST/HEAD] <ip> <port> <time> <connections>
 	UDP2 <ip> <port> <time>
 
-\x1b[38;2;0;255;255m» Amp/Games:
+» Amp/Games:
    samp <ip> <port>
    ldap <ip> <port> <threads> <time>
    ovh-amp <ip> <port>
    minecraft <ip> <throttle> <threads> <time>
    ntp <ip> <port> <throttle> <time>'
    
-\x1b[38;2;0;255;255m» Tools:
+» Tools:
 	PAPING <ip> <port> <time
 	subnet-lookup <cdr/ip + netmask>
 	dns <dns>
@@ -62,7 +69,7 @@ def methods():
 	asn-lookup <ip/asn>
 	reverse-dns <ip/domain>
 
-\x1b[38;2;0;255;255m» Note: The methods will always be upgraded!
+» Note: The methods will always be upgraded!
 """)
 
 def main():
@@ -75,8 +82,8 @@ def main():
 
         elif "Help" in cnc:
             print(f'''
-\x1b[38;2;0;255;255m» Methods : To show methods 
-\x1b[38;2;0;255;255m» Clear: To clear all messages
+» Methods : To show methods 
+» Clear: To clear all messages
             ''')
 
         else:
@@ -361,7 +368,7 @@ def login():
         print("Sorry, the password you entered is wrong!!!")
         sys.exit(1)
     elif username == user and password == passwd:
-        print("Welcome to Flare DDoS Panel!!!...")
+        print("Welcome to Its DDoS Panel!!!...")
         time.sleep(0.3)
         main()
 
